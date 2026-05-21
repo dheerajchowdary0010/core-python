@@ -1,0 +1,13 @@
+def dec(func):
+    def inner(a, b):
+        return func(a, b)
+
+    return inner
+
+
+@dec
+def add(st, iny):
+    return st + " " + (iny)
+
+
+print(add("sravan", "23"))
