@@ -19,4 +19,3 @@ class b(acl,ac):
 
 b1 = b()
 print(b.mro())
-print(b1.super(b,acl).m1)̀
